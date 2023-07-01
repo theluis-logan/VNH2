@@ -20,8 +20,4 @@ public class DBContext {
         conn = DriverManager.getConnection(URL, "sa", "12345");
         return conn;
     }
-    
-    public static void main(String[] args) throws ClassNotFoundException, SQLException {
-        System.out.println(makeConnection());
-    }
 }
